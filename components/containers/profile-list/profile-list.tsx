@@ -84,11 +84,6 @@ export const ProfileList = () => {
         <div className="flex flex-col items-end justify-end gap-4 md:mt-0 md:flex-row">
           <ProfileListFiltersLabel filters={filters} />
           <ProfileListSorting sorting={sorting} />
-          <QueryDialogButton
-            queryDocument={SearchProfilesDocument}
-            variables={query}
-            buttonLabel="View query"
-          />
         </div>
 
         <ProfileListCards query={query} />
