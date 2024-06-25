@@ -14,7 +14,7 @@ const learnMoreButton = (
     rel="noopener noreferrer"
     href="https://docs.thegrid.id"
   >
-    <Button className="w-full md:w-fit">Read the docs</Button>
+    <Button className="w-full md:w-fit">Follow Farmap on Farcaster</Button>
   </Link>
 );
 
