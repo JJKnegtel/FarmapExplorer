@@ -30,6 +30,8 @@ const claimProfileButton = (
   </Link>
 );
 
+
+
 export const Header = () => {
   return (
     <header className="container flex w-full items-center py-4">
@@ -47,7 +49,6 @@ export const Header = () => {
       <div className="hidden w-full items-center justify-end gap-2 md:flex">
         {learnMoreButton}
         {claimProfileButton}
-        {cloneRepoButton}
       </div>
       <Sheet>
         <SheetTrigger asChild className="flex w-full items-center justify-end">
@@ -67,9 +68,6 @@ export const Header = () => {
           <ul className="mt-4 flex flex-col gap-3">
             <li>
               <SheetTrigger asChild>{learnMoreButton}</SheetTrigger>
-            </li>
-            <li>
-              <SheetTrigger asChild>{cloneRepoButton}</SheetTrigger>
             </li>
           </ul>
         </SheetContent>
