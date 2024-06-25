@@ -12,7 +12,7 @@ const learnMoreButton = (
   <Link
     target="_blank"
     rel="noopener noreferrer"
-    href="https://docs.thegrid.id"
+    href="https://warpcast.com/~/channel/farmap"
   >
     <Button className="w-full md:w-fit">Follow Farmap on Farcaster</Button>
   </Link>
