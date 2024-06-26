@@ -39,8 +39,8 @@ export const Header = () => {
         <Link href="/" className="flex items-center">
           <Image
             alt="The grid logo"
-            src="/farmap_icon.svg"
-            width={100}
+            src="/farmap_logo.svg"
+            width={500}
             height={200}
           />
         </Link>
