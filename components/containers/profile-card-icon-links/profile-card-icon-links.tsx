@@ -23,7 +23,7 @@ const socialsIconMap = {
   'Twitter / X': <SiX className={iconFilledClassName} size={16} />,
   Discord: <SiDiscord className={iconFilledClassName} size={16} />,
   LinkedIn: <SiLinkedin className={iconFilledClassName} size={16} />,
-  Telegram: <SiTelegram className={iconFilledClassName} size={16} />
+  Telegram: <SiTelegram className={iconFilledClassName} size={16} />,
   Warpcast: <SiFarcaster className={iconFilledClassName} size={16} />
   
 } as const;
