@@ -40,7 +40,7 @@ export const Header = () => {
           <Image
             alt="The grid logo"
             src="/farmap_logo.svg"
-            width={500}
+            width={250}
             height={200}
           />
         </Link>
